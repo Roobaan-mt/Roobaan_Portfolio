@@ -1,4 +1,3 @@
-
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -7,35 +6,70 @@
   <title>Roobaan M T | iOS & Flutter Developer</title>
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet">
   <style>
-    body {
-      font-family: 'Inter', sans-serif;
+    * {
       margin: 0;
       padding: 0;
-      background: #f9f9f9;
-      color: #333;
+      box-sizing: border-box;
+    }
+    body {
+      font-family: 'Inter', sans-serif;
+      background: linear-gradient(to bottom right, #f0f4ff, #ffffff);
+      color: #1e293b;
+      line-height: 1.6;
     }
     header {
-      background-color: #1e293b;
+      background: linear-gradient(to right, #3b82f6, #1e40af);
       color: white;
-      padding: 2rem;
+      padding: 3rem 1rem;
       text-align: center;
+      box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    }
+    header h1 {
+      font-size: 2.8rem;
+      margin-bottom: 0.5rem;
+    }
+    header p {
+      font-size: 1.25rem;
+      opacity: 0.9;
     }
     main {
-      padding: 2rem;
-      max-width: 900px;
+      max-width: 1100px;
       margin: auto;
-    }
-    h1, h2, h3 {
-      color: #0f172a;
+      padding: 2rem;
     }
     section {
-      margin-bottom: 2rem;
+      margin-bottom: 3rem;
+      padding: 2rem;
+      background: white;
+      border-radius: 1rem;
+      box-shadow: 0 8px 20px rgba(0, 0, 0, 0.05);
+    }
+    h2 {
+      font-size: 2rem;
+      margin-bottom: 1rem;
+      color: #1d4ed8;
+      border-bottom: 2px solid #c7d2fe;
+      padding-bottom: 0.5rem;
+    }
+    h3 {
+      margin-top: 1.5rem;
+      font-size: 1.25rem;
+      color: #1e40af;
     }
     .project-links a, .social-links a {
-      display: block;
-      color: #2563eb;
-      margin: 0.25rem 0;
+      display: inline-block;
+      margin: 0.25rem 0.5rem 0.25rem 0;
+      padding: 0.4rem 0.8rem;
+      background: #eff6ff;
+      color: #1d4ed8;
       text-decoration: none;
+      border-radius: 0.5rem;
+      font-weight: 600;
+      transition: all 0.3s ease;
+    }
+    .project-links a:hover, .social-links a:hover {
+      background: #dbeafe;
+      color: #1e40af;
     }
     .skills-list, .contact {
       display: flex;
@@ -43,22 +77,30 @@
       gap: 0.5rem;
     }
     .skills-list span, .contact span {
-      background: #e2e8f0;
-      padding: 0.5rem 1rem;
-      border-radius: 1rem;
+      background: #e0f2fe;
+      padding: 0.6rem 1rem;
+      border-radius: 9999px;
+      font-weight: 500;
+      color: #0369a1;
+    }
+    .contact a {
+      color: inherit;
+      text-decoration: none;
     }
     footer {
-      background: #1e293b;
+      background: #1e40af;
       color: white;
       text-align: center;
-      padding: 1rem;
+      padding: 1.5rem;
+      margin-top: 3rem;
+      font-size: 0.9rem;
     }
   </style>
 </head>
 <body>
   <header>
     <h1>Roobaan M T</h1>
-    <p>iOS & Flutter Developer | 3+ Years Experience</p>
+    <p>iOS & Flutter Developer | 3+ Years of Experience</p>
   </header>
   <main>
     <section>
